@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="sub-container">
+      <div class="star"><img src="images/icon-star.svg" alt=""></div>
+    <h2>How did we do?</h2>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+    <form id="rate-form">
+      <input type="radio" id="opcion1" name="opciones" value="1">
+      <label class="ratebtn" for="opcion1">1</label>
+      <input type="radio" id="opcion2" name="opciones" value="2">
+      <label class="ratebtn" for="opcion2">2</label>
+      <input type="radio" id="opcion3" name="opciones" value="3">
+      <label class="ratebtn" for="opcion3">3</label>
+      <input type="radio" id="opcion4" name="opciones" value="4">
+      <label class="ratebtn" for="opcion4">4</label>
+      <input type="radio" id="opcion5" name="opciones" value="5">
+      <label class="ratebtn" for="opcion5">5</label>
+    </form>
+    <button type="submit" form="rate-form">S U B M I T</button>
+    </div>
+    <div class="sub-container2">
+      <img src="images/illustration-thank-you.svg" alt="">
+      <p class="selection"></p>
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+      </p>
+    </div>
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="submit.js"></script>
+</body>
+</html>
