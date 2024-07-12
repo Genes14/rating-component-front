@@ -120,9 +120,12 @@ button{
     font-size: 15px;
     text-align: center;
 }
-
-
- 
+.attribution{
+    color: hsl(0, 0%, 100%);
+}
+.attribution a{
+    text-decoration:none;
+    color: hsl(213, 19%, 18%);
 .colors{
     /* White: */
     color: hsl(0, 0%, 100%);
